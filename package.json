@@ -1,0 +1,26 @@
+{
+  "name": "am60-cli-countdown-timer",
+  "version": "1.0.2",
+  "description": "Count your time in seconds.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Amna",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.3.5"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7"
+  }
+}
